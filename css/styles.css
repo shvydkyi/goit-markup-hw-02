@@ -1,6 +1,101 @@
 :root {
   --primary-text-color: #212121;
-  --primary-white-color: #ffffff;
   --secondary-text-color: #757575;
+  --primary-white-color: #ffffff;
   --accent-color: #2196f3;
+  --background-color: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* Шапка сайта */
+
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.second-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-contacts-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.header-link:hover {
+  color: var(--accent-color);
+}
+
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.hero-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border: none;
 }
